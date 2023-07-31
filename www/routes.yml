@@ -1,0 +1,24 @@
+/:
+  controller: Main
+  action: home
+
+/login:
+  controller: Account
+  action: login
+
+/se-connecter:
+  controller: Account
+  action: login
+
+/logout:
+  controller: Account
+  action: logout
+
+/admin:
+  controller: Admin
+  action: dashboard
+
+
+/admin/users:
+  controller: Admin
+  action: users
